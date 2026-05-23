@@ -1,27 +1,49 @@
-# dependencies
+# =========================
+# DEPENDENCIES
+# =========================
 node_modules/
 
-# Expo
+# =========================
+# EXPO / REACT NATIVE
+# =========================
 .expo/
-dist/
+.expo-shared/
+.expo-cache/
 web-build/
 
-# environment
-.env
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+.env*
 
-# logs
+# =========================
+# LOGS
+# =========================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS files
+# =========================
+# OS FILES
+# =========================
 .DS_Store
 Thumbs.db
 
-# build
-android/
-ios/
-build/
-
-# cache
+# =========================
+# CACHE
+# =========================
 .cache/
+.expo/
+metro-cache/
+
+# =========================
+# BUILD OUTPUTS
+# =========================
+build/
+dist/
+
+# =========================
+# ANDROID / IOS (OPTIONAL - KEEP IF EAS MANAGED)
+# =========================
+# android/
+# ios/
